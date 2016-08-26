@@ -1,0 +1,97 @@
+#menuImage{
+position: relative;
+}
+  #menus img{
+    
+      position: relative;
+      height: 100%;
+      margin-top: 71px;
+      margin-bottom: 20px;
+  }
+#menus{
+    background-color: black;
+    background-attachment: relative;
+    margin-top: 65%;
+    padding-top: 5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     z-index: 22;
+ 
+}
+#menuImage container-fluid{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*#menuImage img{
+    width: 110%;
+    margin-top: -15%;
+    margin-left: -15px;
+    margin-right: -15px;
+}*/
+#menuImage2 img{
+    width: 100%;
+    margin-top: -1%;
+}
+#menuImage2 container-fluid{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#menu{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background: black;
+}
+.menu h2{
+    margin-top: 5%;
+    padding-top: 0;
+    color: #b4a755;
+     font-family: 'Roboto', sans-serif;
+}
+.menu h3{
+    color:  #b4a755;
+}
+.menu{
+margin-bottom: 20%;
+}
+.menu p{
+   
+          font-family: 'Roboto', sans-serif;
+     color: grey; 
+     margin-bottom: 5%;
+
+}
+
+
+ #menuImage{
+    position: relative;
+}
+
+.menu-logo{
+    text-align: center;
+}
+.menu-logo img{
+    position: relative;
+    height: 13%;
+}
+
+/*
+ #menu-logo{
+    
+    height: 14vw;
+    position: absolute;
+    right: 50%;
+    top: 0vw;
+ }*/
+ #menus{
+     margin-left: -15px;
+ }
