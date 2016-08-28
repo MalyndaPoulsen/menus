@@ -1,97 +1,68 @@
-#menuImage{
-position: relative;
-}
-  #menus img{
-    
-      position: relative;
-      height: 100%;
-      margin-top: 71px;
-      margin-bottom: 20px;
-  }
-#menus{
-    background-color: black;
-    background-attachment: relative;
-    margin-top: 65%;
-    padding-top: 5%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-     z-index: 22;
- 
-}
-#menuImage container-fluid{
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-/*#menuImage img{
-    width: 110%;
-    margin-top: -15%;
-    margin-left: -15px;
-    margin-right: -15px;
-}*/
-#menuImage2 img{
-    width: 100%;
-    margin-top: -1%;
-}
-#menuImage2 container-fluid{
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-#menu{
-    position: relative;
-    top: 0%;
-    left: 0%;
-    background: black;
-}
-.menu h2{
-    margin-top: 5%;
-    padding-top: 0;
-    color: #b4a755;
-     font-family: 'Roboto', sans-serif;
-}
-.menu h3{
-    color:  #b4a755;
-}
-.menu{
-margin-bottom: 20%;
-}
-.menu p{
    
-          font-family: 'Roboto', sans-serif;
-     color: grey; 
-     margin-bottom: 5%;
-
+body, html{
+overflow-x: hidden;
+   font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    font-size: 12px;
+    -ms-overflow-style: scrollbar;
 }
 
 
- #menuImage{
-    position: relative;
-}
 
-.menu-logo{
+/*.menu{
     text-align: center;
 }
-.menu-logo img{
-    position: relative;
-    height: 13%;
+  .logo img{
+    
+      position: relative;
+      height: 20%;
+      margin-top: 15px;
+      margin-bottom: 20px;
+  }*/
+
+
+.menuList p{
+    color: lightgrey;
+
+}
+.menuList2 p{
+    color: lightgrey;
 }
 
-/*
- #menu-logo{
-    
-    height: 14vw;
-    position: absolute;
-    right: 50%;
-    top: 0vw;
- }*/
- #menus{
-     margin-left: -15px;
+.menuList2{
+   display: none;
+}
+
+@media only screen and (max-width: 500px){ 
+   .menuList{
+     display: none;
+   }
+
+   .menuList2{
+     display: block;
+   }
+}
+.menuList{
+  
  }
+  .menuList2{
+
+ }
+#menuBar{
+   
+    position: absolute;
+    top: 50%;
+    left: 1%;
+
+}
+
+ #menuBar p{
+padding-bottom: 1%;
+font-size: 1.5vw;
+padding-left: 1.5vw;
+padding-right: 1.5vw;
+     }
+     #menuBar h2{padding-top: 3%;
+         color: #b4a755;
+     }
